@@ -1,0 +1,19 @@
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            scroll-behavior: smooth;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            /* min-width: 1500px; */
+        }
+        
+        .bg {
+            /* The image used */
+            background-image: url("./francesco-ungaro-nlqqldluDBw-unsplash.jpg");
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }

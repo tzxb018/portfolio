@@ -1,0 +1,57 @@
+ .main_text_holder {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80%;
+     flex-direction: column;
+ }
+ 
+ .text_inside {
+     text-align: center;
+ }
+ 
+ .text_inside h1 {
+     /* color: #ddd; */
+     font-size: 80px;
+     text-align: center;
+     margin: 15px auto;
+     letter-spacing: 1px;
+ }
+ 
+ .text_inside h3 {
+     /* color: #ddd; */
+     font-size: 22px;
+     margin-top: 5px;
+     margin-bottom: 0px;
+ }
+ 
+ .social {
+     font-size: 30px;
+     margin-top: 10px;
+     /* border: 5px black solid; */
+ }
+ 
+ .social ul {
+     text-align: center;
+     padding: 0px;
+     color: black;
+ }
+ 
+ .social li {
+     display: inline-block;
+     line-height: 18px;
+     margin: 0 15px;
+ }
+ 
+ .bottom_page_button_holder {
+     position: absolute;
+     bottom: 20px;
+     text-align: center;
+ }
+ 
+ #home {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+ }
