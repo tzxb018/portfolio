@@ -1,36 +1,20 @@
-.work_holder {
-    margin-right: auto;
-    margin-left: auto;
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
+#resume .inner p {
+    display: block;
+    line-height: 34px;
 }
 
-.work_holder .jobtitle {
-    margin: 0 auto;
-}
-
-.work_holder .jobtitle .employer {
-    margin-top: 0px;
-}
-
-.work_holder .durloc .jobdate {
-    margin-top: 0px;
-}
-
-.work_holder .jobtitle .description {}
-
-.work_holder .durloc {
-    text-align: right;
-    white-space: nowrap;
-}
-
-.work_holder .logo {
+.logo {
     width: 40pt;
     height: 40pt;
     object-fit: contain;
     box-sizing: border-box;
     display: block;
-    text-align: center;
-    margin-right: 10px;
+    margin-left: -80px;
+    float: left;
+}
+
+.coursework {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
 }
