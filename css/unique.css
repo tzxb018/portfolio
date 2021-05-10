@@ -1,0 +1,9 @@
+.img_holder {
+    text-align: center;
+}
+
+.img_holder img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 380;
+}
