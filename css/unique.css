@@ -1,0 +1,16 @@
+.img_holder {
+    text-align: center;
+}
+
+.img_holder img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    margin-top: 5px;
+}
