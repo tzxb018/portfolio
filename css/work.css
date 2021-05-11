@@ -33,6 +33,20 @@
     font-weight: 400;
 }
 
+.skill_software:hover {
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+    width: auto;
+    font-size: 11px;
+    line-height: 1.33em;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 3px solid #289234;
+    background-color: #2892346b;
+    font-weight: 400;
+}
+
 .skill_language {
     display: inline-block;
     margin-right: 5px;
@@ -46,6 +60,20 @@
     font-weight: 400;
 }
 
+.skill_language:hover {
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+    width: auto;
+    font-size: 11px;
+    line-height: 1.33em;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 3px solid #499ee4;
+    background-color: #67b0eb;
+    font-weight: 400;
+}
+
 .skill_soft {
     display: inline-block;
     margin-right: 5px;
@@ -56,5 +84,19 @@
     padding: 5px 12px;
     border-radius: 5px;
     border: 2px solid #fa5151;
+    font-weight: 400;
+}
+
+.skill_soft:hover {
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+    width: auto;
+    font-size: 11px;
+    line-height: 1.33em;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 3px solid #fa5151;
+    background-color: #fa51514d;
     font-weight: 400;
 }

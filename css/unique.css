@@ -5,5 +5,12 @@
 .img_holder img {
     display: inline-block;
     margin: 0 auto;
-    width: 380;
+}
+
+figcaption {
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    margin-top: 5px;
 }
