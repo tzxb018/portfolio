@@ -19,7 +19,7 @@ html {
 }
 
 .inner {
-    width: 800px;
+    width: 900px;
     max-width: 1020px;
     margin: 0 auto;
 }
@@ -64,4 +64,9 @@ html {
 .navbar a:hover {
     background: #ddd;
     color: black;
+}
+
+.title {
+    text-align: center;
+    padding-top: 20px;
 }
