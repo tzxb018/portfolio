@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/work.css" />
     <link rel="stylesheet" href="./css/unique.css" />
     <link rel="stylesheet" href="./css/projects.css" />
-
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 
 <body>
@@ -25,7 +25,7 @@
             <a href="#about">About Me</a>
         </li>
         <li>
-            <a href="#resume">Resume</a>
+            <a href="#resume">R&eacute;sum&eacute;</a>
         </li>
         <li>
             <a href="#projects">Projects</a>
@@ -73,6 +73,7 @@
     <!-- About me section-->
     <section id="about">
         <h1 class="title">About Me</h1>
+        <div class="title_description">"You have to have confidence in your ability, and then be tough enough to follow through."<br> - Rosalynn Carter</div>
         <div class="about_header_inner">
             <img class="avatar" src="./img/tomo.jpg" alt="Avatar" />
             <p class="about_text">
@@ -334,10 +335,12 @@
 
     <!-- Resume section-->
     <section id="resume">
-        <h1 class="title">Resume</h1>
-        <h2 class="title">Work Experiences</h2>
-
+        <h1 class="title">R&eacute;sum&eacute;</h1>
         <div id="work_experiences" class="inner">
+
+            <h2 class="title_sub">Work Experiences</h2>
+            <div class="title_description">"It's like Forrest Gump said, 'Life is like a box of chocolates.' Your career is like a box of chocolates - you never know what you're going to get. But everything you get is going to teach you something along the way and make you the person
+                you are today. That's the exciting part - it's an adventure in itself." <br> - Nick Carter</div>
             <p id="unl_ta">
                 <a target="_blank" href="http://unl.edu">
                     <img class="logo" src="./img/nebraska-n.jpg" />
@@ -477,7 +480,8 @@
             </p>
         </div>
 
-        <h2 class="title">Education</h2>
+        <h2 class="title_sub">Education</h2>
+        <div class="title_description">"You are always the student, never a master. You have to keep moving forward." <br> - Conrad Hall</div>
         <div id="education" class="inner">
             <p id="unl">
                 <a target="_blank" href="http://unl.edu">
@@ -537,14 +541,120 @@
 
     <!-- Projects section-->
     <section id="projects">
-        <h1 class="title">Projects</h1>
-        <div class="inner" id="projects_inner">
+        <div class="inner_projects">
+            <h1 class="title">Projects</h1>
+            <div class="title_description">"You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity." <br> - John Romero</div>
             <div class="project_row">
+
+
                 <div class="project_container">
+                    <a target="_blank" href="https://cse.unl.edu/~minesweeper/delta/minesweeper/">
+
+                        <img src="./img/minesweeper.png" class="project_image">
+                        <div class="project_overlay">
+                            <div class="project_title">Minesweeper</div>
+                            <div class="project_description">
+                                Revamped frontend of Minesweeper solver and improved constraint logic.
+                            </div>
+                            <strong class="project_tag">Tags:</strong>
+                            <div class="project_description">HTML/CSS, JS-React/Redux, Java</div>
+                        </div>
+                    </a>
 
                 </div>
                 <div class="project_container">
+                    <a target="_blank" href="https://github.com/tzxb018/laser_calibration_with_people_detection">
 
+                        <img src="./img/ros_sample.png" class="project_image">
+                        <div class="project_overlay">
+                            <div class="project_title">ROS Package</div>
+                            <div class="project_description">
+                                Developed a ROS package that takes multiple lasers and tracks the movement of a person's ankles. </div>
+                            <strong class="project_tag">Tags:</strong>
+                            <div class="project_description">Python, ROS, Ubuntu</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project_row">
+
+
+                <div class="project_container" id="grociri">
+                    <a target="_blank" href="https://github.com/tzxb018/CS361-Group10-Grocery-App">
+
+                        <img src="./img/grociri-login.png" class="project_image">
+                        <div class="project_overlay">
+                            <div class="project_title">Grociri</div>
+                            <div class="project_description">
+                                Developed MVC application with iDesign principles and agile development.
+                            </div>
+                            <strong class="project_tag">Tags:</strong>
+                            <div class="project_description">HTML/CSS, Angular, ASP.NET, JS</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project_container ">
+                    <a target="_blank" href=https://github.com/tzxb018/csp-solver ">
+
+                        <img src="./img/csp-table.png " class="project_image ">
+                        <div class="project_overlay ">
+                            <div class="project_title ">CSP Solver</div>
+                            <div class="project_description ">
+                                Implemented several different constraint solving algorithms to compare their performances.
+                            </div>
+                            <strong class="project_tag ">Tags:</strong>
+                            <div class="project_description ">Java, Constraint Propagation</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project_row ">
+
+                <div class="project_container ">
+                    <a target="_blank " href="https://github.com/tzxb018/BasketballSimulator ">
+
+                        <img src="./img/basketball-game.png " class="project_image ">
+                        <div class="project_overlay ">
+                            <div class="project_title ">Basketball Simulator</div>
+                            <div class="project_description ">
+                                Implemented kinematics to simulate a basketball shot where the player is able to control their shot's angle, power, and the gravity of the environment. 
+                            </div>
+                            <strong class="project_tag ">Tags:</strong>
+                            <div class="project_description ">C#, Physics</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project_container ">
+                    <a target="_blank " href="https://github.com/tzxb018/weather ">
+                        <img src="./img/weather-app.png " class="project_image ">
+                        <div class="project_overlay ">
+                            <div class="project_title ">Weather Application</div>
+                            <div class="project_description ">
+                                Displays the current conditions and other meterological information for the Nebraska/Iowa area. </div>
+                                <strong class="project_tag ">Tags:</strong>
+                            <div class="project_description ">C#, API, Meteorology</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="project_row ">
+                    <video controls class="project_container ">
+                        <source src="./img/TRAILER_BW.mp4 ">
+                    </video>
+                    
+                    <!-- <h2>Room 229 - A Whodunit Movie</h2>
+                    <p>I edited and put together a whodunit mystery film that I shot with my friends. The link to the movie can be found <a target="_blank " href="https://www.youtube.com/watch?v=fiAJpO23Mig ">here</a>.</p> -->
+                
+                <div class="project_container ">
+                    <img src=" " class="project_image ">
+                    <!-- <h2>Personal Website</h2>
+                    <p>Developed my own personal website to showcase my resume and projects that I have done.</p> -->
                 </div>
             </div>
         </div>
