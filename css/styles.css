@@ -3,8 +3,7 @@ html {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    /* min-width: 1500px; */
+    font-family: Open Sans;
 }
 
 .bg {
@@ -68,5 +67,21 @@ html {
 
 .title {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    font-size: 24pt;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.title_description {
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.title_sub {
+    text-align: center;
+    margin-bottom: 0px;
 }
