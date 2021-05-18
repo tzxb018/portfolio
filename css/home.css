@@ -2,8 +2,13 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 80%;
+     /* height: 80%; */
      flex-direction: column;
+     background-color: rgba(255, 255, 255, .8);
+     border-radius: .25em;
+     box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+     box-sizing: border-box;
+     padding: 30px 60px;
  }
  
  .text_inside {

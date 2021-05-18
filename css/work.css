@@ -1,6 +1,10 @@
 #resume .inner p {
     display: block;
-    line-height: 34px;
+    line-height: 28px;
+}
+
+#resume {
+    background-color: rgb(243, 239, 224);
 }
 
 .logo {
