@@ -7,6 +7,24 @@
     background-color: rgb(243, 239, 224);
 }
 
+.location {
+    color: #09f;
+    float: right;
+    font-size: smaller;
+}
+
+.location span {
+    margin-left: 4px;
+}
+
+.job_link {
+    display: inline-block;
+    font-size: 10.5pt;
+    font-weight: 100;
+    color: #09f;
+    margin-left: 4px;
+}
+
 .logo {
     width: 40pt;
     height: 40pt;
@@ -16,6 +34,23 @@
     margin-left: -80px;
     float: left;
     margin-top: 5px;
+}
+
+.spacer {
+    padding-bottom: 15px;
+}
+
+.job_info {
+    line-height: 30px;
+    font-size: 13.5pt;
+}
+
+.job_description {
+    line-height: 25px;
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: lighter;
 }
 
 .coursework {
@@ -35,6 +70,7 @@
     border-radius: 5px;
     border: 2px solid #289234;
     font-weight: 400;
+    margin-top: 5px;
 }
 
 .skill_software:hover {
@@ -46,9 +82,10 @@
     line-height: 1.33em;
     padding: 5px 12px;
     border-radius: 5px;
-    border: 3px solid #289234;
+    border: 2px solid #289234;
     background-color: #2892346b;
     font-weight: 400;
+    margin-top: 5px;
 }
 
 .skill_language {
@@ -62,6 +99,7 @@
     border-radius: 5px;
     border: 2px solid #499ee4;
     font-weight: 400;
+    margin-top: 5px;
 }
 
 .skill_language:hover {
@@ -73,9 +111,10 @@
     line-height: 1.33em;
     padding: 5px 12px;
     border-radius: 5px;
-    border: 3px solid #499ee4;
+    border: 2px solid #499ee4;
     background-color: #67b0eb;
     font-weight: 400;
+    margin-top: 5px;
 }
 
 .skill_soft {
@@ -89,6 +128,7 @@
     border-radius: 5px;
     border: 2px solid #fa5151;
     font-weight: 400;
+    margin-top: 5px;
 }
 
 .skill_soft:hover {
@@ -100,7 +140,8 @@
     line-height: 1.33em;
     padding: 5px 12px;
     border-radius: 5px;
-    border: 3px solid #fa5151;
+    border: 2px solid #fa5151;
     background-color: #fa51514d;
     font-weight: 400;
+    margin-top: 5px;
 }

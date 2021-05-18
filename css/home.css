@@ -48,6 +48,18 @@
      margin: 0 15px;
  }
  
+ .fa-github:hover {
+     color: #09f !important;
+ }
+ 
+ .fa-linkedin:hover {
+     color: #09f !important;
+ }
+ 
+ .fa-envelope:hover {
+     color: #09f !important;
+ }
+ 
  .bottom_page_button_holder {
      position: absolute;
      bottom: 20px;
