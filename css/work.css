@@ -43,6 +43,7 @@
 .job_info {
     line-height: 30px;
     font-size: 13.5pt;
+    margin-top: 15px;
 }
 
 .job_description {
@@ -144,4 +145,8 @@
     background-color: #fa51514d;
     font-weight: 400;
     margin-top: 5px;
+}
+
+#education {
+    background-color: rgb(255, 254, 248);
 }
