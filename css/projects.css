@@ -7,12 +7,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.project_container i {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
 .inner_projects {
     width: 900px;
     max-width: 1020px;
@@ -66,7 +60,7 @@
     margin-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .project_tag {
@@ -81,6 +75,7 @@
     font-size: 9pt;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 20px;
 }
 
 .button_holder_movie {
