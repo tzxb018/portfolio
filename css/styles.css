@@ -92,10 +92,12 @@ h2 {
 
 a:link {
     color: #09f;
+    text-decoration: none;
 }
 
 a:visited {
     color: #09f;
+    text-decoration: none;
 }
 
 
@@ -161,4 +163,36 @@ section {
     display: inline-block;
     font-size: 10pt;
     border-radius: 5pt;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*https://github.com/kevin-powell/fun-with-transforms-and-transform-origin */
+
+.button::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5pt;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    transition: -webkit-transform 250ms ease-in;
+    transition: transform 250ms ease-in;
+    transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.button:hover::after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left;
+    transform-origin: left;
 }
