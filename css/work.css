@@ -150,17 +150,3 @@
 #education {
     background-color: rgb(255, 254, 248);
 }
-
-.button {
-    margin-top: 15px;
-    background-color: #09f;
-    /* Green */
-    border: none;
-    color: white !important;
-    padding: 8px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10pt;
-    border-radius: 5pt;
-}

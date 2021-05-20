@@ -156,7 +156,7 @@
 }
 
 .fluent td {
-    padding-bottom: 30px;
+    padding-bottom: 37px;
     /* border: rgb(70, 70, 70) 1px solid; */
     padding-right: 20px;
 }
@@ -169,8 +169,8 @@
 
 .fluent img {
     border-radius: 50%;
-    width: 40pt;
-    height: 40pt;
+    width: 45pt;
+    height: 45pt;
     object-fit: contain;
     box-sizing: border-box;
     display: block;
@@ -201,4 +201,25 @@
 .column_seperator {
     min-width: 50px;
     max-width: 50px;
+}
+
+.button_holder_about_me_wrapper {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.button_holder_about_me {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
+.button_about {
+    margin-top: 5px;
+    color: white !important;
+    padding: 10px 15px;
+    width: 130px;
+    font-size: 11pt;
+    margin-right: 10px;
 }
