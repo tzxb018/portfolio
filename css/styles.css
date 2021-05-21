@@ -196,3 +196,43 @@ section {
     -webkit-transform-origin: left;
     transform-origin: left;
 }
+
+#contact {
+    background-color: rgb(255, 254, 248);
+    height: 100vh;
+    padding: 0px;
+}
+
+.contact_table {
+    margin: 0 auto;
+    float: none;
+    table-layout: fixed;
+    width: 50%;
+}
+
+.inner_contact {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact_table i {
+    font-size: 48pt;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.contact_table td {
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.mid_row a {
+    color: #09f;
+    font-size: x-large;
+}
+
+.link_row a {
+    color: black !important;
+}
