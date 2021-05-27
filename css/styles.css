@@ -233,6 +233,16 @@ section {
     font-size: x-large;
 }
 
+.link_row {
+    margin-bottom: 50px;
+}
+
 .link_row a {
     color: black !important;
+}
+
+.footer {
+    position: relative;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
